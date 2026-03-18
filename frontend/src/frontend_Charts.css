@@ -1,0 +1,81 @@
+/* Charts Styling */
+
+.charts-wrapper {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.chart-container {
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #334155;
+}
+
+.chart-container h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  color: #f1f5f9;
+  font-weight: 600;
+}
+
+.chart-description {
+  margin: 0 0 1.5rem 0;
+  color: #94a3b8;
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+.custom-tooltip {
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  padding: 0.75rem;
+  color: #f1f5f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.custom-tooltip p {
+  margin: 0.25rem 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.recharts-surface {
+  filter: none !important;
+}
+
+.recharts-default-tooltip {
+  outline: none;
+}
+
+/* Fix text colors in charts */
+.recharts-text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+@media (max-width: 1024px) {
+  .charts-wrapper {
+    gap: 1.5rem;
+  }
+
+  .chart-container {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    padding: 1rem;
+  }
+
+  .chart-container h3 {
+    font-size: 1.1rem;
+  }
+
+  .chart-description {
+    font-size: 0.8rem;
+  }
+}
