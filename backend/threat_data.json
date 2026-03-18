@@ -1,0 +1,132 @@
+{
+  "U101": [
+    {
+      "session_id": "S1",
+      "timestamp": "2026-02-06T13:31:40.166364",
+      "log_data": {
+        "user_id": "U101",
+        "session_id": "S1",
+        "login_hour": 10,
+        "files_accessed": 15,
+        "sensitive_files": 0,
+        "data_download_mb": 120.0,
+        "session_duration_min": 40
+      },
+      "trust_score": 78.0,
+      "anomaly_score": 0.0,
+      "risk_penalty": 0
+    },
+    {
+      "session_id": "S2",
+      "timestamp": "2026-02-06T13:34:07.189503",
+      "log_data": {
+        "user_id": "U101",
+        "session_id": "S2",
+        "login_hour": 10,
+        "files_accessed": 15,
+        "sensitive_files": 0,
+        "data_download_mb": 120.0,
+        "session_duration_min": 40
+      },
+      "trust_score": 76.8,
+      "anomaly_score": 0.0,
+      "risk_penalty": 0
+    },
+    {
+      "session_id": "S3",
+      "timestamp": "2026-02-06T13:34:11.656324",
+      "log_data": {
+        "user_id": "U101",
+        "session_id": "S3",
+        "login_hour": 10,
+        "files_accessed": 15,
+        "sensitive_files": 0,
+        "data_download_mb": 120.0,
+        "session_duration_min": 40
+      },
+      "trust_score": 76.08,
+      "anomaly_score": 0.0,
+      "risk_penalty": 0
+    },
+    {
+      "session_id": "S4",
+      "timestamp": "2026-02-06T13:34:16.296983",
+      "log_data": {
+        "user_id": "U101",
+        "session_id": "S4",
+        "login_hour": 10,
+        "files_accessed": 15,
+        "sensitive_files": 0,
+        "data_download_mb": 120.0,
+        "session_duration_min": 40
+      },
+      "trust_score": 75.648,
+      "anomaly_score": 0.0,
+      "risk_penalty": 0
+    },
+    {
+      "session_id": "S5",
+      "timestamp": "2026-02-06T13:34:23.503639",
+      "log_data": {
+        "user_id": "U101",
+        "session_id": "S5",
+        "login_hour": 10,
+        "files_accessed": 15,
+        "sensitive_files": 0,
+        "data_download_mb": 120.0,
+        "session_duration_min": 40
+      },
+      "trust_score": 75.39,
+      "anomaly_score": 0.0,
+      "risk_penalty": 0
+    },
+    {
+      "session_id": "S6",
+      "timestamp": "2026-02-06T13:34:28.716380",
+      "log_data": {
+        "user_id": "U101",
+        "session_id": "S6",
+        "login_hour": 19,
+        "files_accessed": 35,
+        "sensitive_files": 0,
+        "data_download_mb": 250.0,
+        "session_duration_min": 70
+      },
+      "trust_score": 72.73400000000001,
+      "anomaly_score": 0.5,
+      "risk_penalty": 10
+    },
+    {
+      "session_id": "S7",
+      "timestamp": "2026-02-06T13:53:39.823705",
+      "log_data": {
+        "user_id": "U101",
+        "session_id": "S7",
+        "login_hour": 19,
+        "files_accessed": 35,
+        "sensitive_files": 0,
+        "data_download_mb": 250.0,
+        "session_duration_min": 70
+      },
+      "trust_score": 71.138,
+      "anomaly_score": 0.5,
+      "risk_penalty": 10
+    },
+    {
+      "session_id": "S8",
+      "timestamp": "2026-02-06T13:53:57.149147",
+      "log_data": {
+        "user_id": "U101",
+        "session_id": "S8",
+        "login_hour": 19,
+        "files_accessed": 35,
+        "sensitive_files": 0,
+        "data_download_mb": 250.0,
+        "session_duration_min": 70
+      },
+      "trust_score": 70.184,
+      "anomaly_score": 0.5,
+      "risk_penalty": 10
+    }
+  ]
+}
